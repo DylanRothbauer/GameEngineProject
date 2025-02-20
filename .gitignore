@@ -92,3 +92,8 @@ DerivedDataCache/*
 
 # Ignore macOS system files
 .DS_Store
+
+# --- Ensure C++ source files are NOT ignored ---
+!Source/**.h
+!Source/**.hpp
+!Source/**.cpp
