@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WorldDesignUpdate.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WorldDesignUpdate.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WorldDesignUpdateEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WorldDesignUpdate">
+      <UniqueIdentifier>{47A9CF5E-B4C9-3A71-AE2B-002E67E12472}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\TP_PickUpComponent.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\TP_PickUpComponent.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\TP_WeaponComponent.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\TP_WeaponComponent.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdate.Build.cs">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdate.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdate.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateCharacter.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateCharacter.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateGameMode.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateGameMode.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdatePlayerController.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdatePlayerController.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateProjectile.cpp">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WorldDesignUpdate\WorldDesignUpdateProjectile.h">
+      <Filter>Source\WorldDesignUpdate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
